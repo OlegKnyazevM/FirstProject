@@ -66,7 +66,7 @@ LtAppAsset::register($this);
 				<div class="row">
 					<div class="col-sm-4">
 						<div class="logo pull-left">
-							<a href="index.html"><img src="web/images/home/logo.png" alt="" /></a>
+							<a href="index.html"><img src="/web/images/home/logo.png" alt="" /></a>
 						</div>
 						<div class="btn-group pull-right">
 							<div class="btn-group">
@@ -169,7 +169,7 @@ LtAppAsset::register($this);
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="web/images/home/iframe1.png" alt="" />
+										<img src="/web/images/home/iframe1.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -184,7 +184,7 @@ LtAppAsset::register($this);
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="web/images/home/iframe2.png" alt="" />
+										<img src="/web/images/home/iframe2.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -199,7 +199,7 @@ LtAppAsset::register($this);
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="web/images/home/iframe3.png" alt="" />
+										<img src="/web/images/home/iframe3.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>
@@ -214,7 +214,7 @@ LtAppAsset::register($this);
 							<div class="video-gallery text-center">
 								<a href="#">
 									<div class="iframe-img">
-										<img src="web/images/home/iframe4.png" alt="" />
+										<img src="/web/images/home/iframe4.png" alt="" />
 									</div>
 									<div class="overlay-icon">
 										<i class="fa fa-play-circle-o"></i>

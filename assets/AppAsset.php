@@ -29,13 +29,15 @@ class AppAsset extends AssetBundle
         'web/css/responsive.css',
     ];
     public $js = [
-       'web/js/jquery.js',
-       'web/js/bootstrap.min.js',
-       'web/js/jquery.scrollUp.min.js',
-       'web/js/price-range.js',
-       'web/js/jquery.prettyPhoto.js',
-       'web/js/main.js',
-        ];
+        'web/js/jquery.js',
+        'web/js/bootstrap.min.js',
+        'web/js/jquery.scrollUp.min.js',
+        'web/js/price-range.js',
+        'web/js/jquery.prettyPhoto.js',
+        'web/js/jquery.cookie.js',
+        'web/js/jquery.accordion.js',
+        'web/js/main.js',
+    ];
 
     public $depends = [
         'yii\web\YiiAsset',
