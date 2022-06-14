@@ -5,9 +5,6 @@
 $this->title = 'My Yii Application';
 ?>
 
-<ul class="catalog">
-    <?=\app\components\MenuWidget::widget(['tpl' => 'menu'])?>
-</ul>
 
 
 <section id="slider"><!--slider-->
@@ -81,8 +78,9 @@ $this->title = 'My Yii Application';
             <div class="col-sm-3">
                 <div class="left-sidebar">
                     <h2>Category</h2>
-
-
+                    <ul class="catalog category-products">
+                        <?=\app\components\MenuWidget::widget(['tpl' => 'menu'])?>
+                    </ul>
 
                     <!--/category-products-->
 

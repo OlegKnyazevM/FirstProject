@@ -1,8 +1,17 @@
 <?php
 
 namespace app\controllers;
+use app\models\Category;
+use app\models\Product;
+use Yii;
 
-class CategoryController
+
+class CategoryController extends AppController
 {
+    public function actionIndex(){
+        $hits = Product::find()->where(['hit' => true])->limit(6)->all();
+        debug($hits);
+        //$this ->render('index');
+    }
 
 }
