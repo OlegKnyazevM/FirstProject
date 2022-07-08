@@ -51,9 +51,12 @@ $config = [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
-                '' => 'site/index',
-                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
+                'category/<id:\d+>/page/<page:\d+>' => 'category/view',
                 'category/<id:\d+>' => 'category/view',
+                '' => 'category/index',
+                '<controller:\w+>/<action:\w+>/' => '<controller>/<action>',
+
+//                http://localhost/category/view?id=28
             ],
         ],
 
