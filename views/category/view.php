@@ -67,16 +67,10 @@ use yii\helpers\Html;
                                     <?php endif;?>
 
                                     <h2>$<?php echo $product->price ?> </h2>
-                                    <p><?php echo $product->name ?></p>
+                                    <p><a href="<?= \yii\helpers\Url::to(['product/view', 'id' => $product->id])?>"><?php echo $product->name ?></a></p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
                                 </div>
-                                <div class="product-overlay">
-                                    <div class="overlay-content">
-                                        <h2>$<?php echo $product->price ?></h2>
-                                        <p><?php echo $product->name ?></p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </div>
-                                </div>
+
                                 <?php if ($product->new): ?>
                                     <?php echo Html::img("@web/images/home/new.png", ['alt' => 'Новинка', 'class' => 'new'])?>
                                 <?php endif;?>

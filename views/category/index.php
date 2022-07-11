@@ -133,18 +133,11 @@ use yii\helpers\Html;
                                     <?php echo Html::img("@web/images/products/{$hit->img}", ['alt' => $hit->name]); ?>
                                     <?php endif;?>
                                     <h2>$<?php echo $hit->price ?></h2>
-                                    <p><?php echo $hit->name ?></p>
+                                    <p><a href="<?= \yii\helpers\Url::to(['product/view', 'id' => $hit->id])?>"> <?php echo $hit->name ?></a></p>
                                     <a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add
                                         to cart</a>
                                 </div>
-                                <div class="product-overlay">
-                                    <div class="overlay-content">
-                                        <h2>$<?php echo $hit->price ?></h2>
-                                        <p><?php echo $hit->name ?></p>
-                                        <a href="#" class="btn btn-default add-to-cart"><i
-                                                class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </div>
-                                </div>
+
                                 <?php if ($hit->new): ?>
                                 <?php echo Html::img("@web/images/home/new.png", ['alt' => 'Новинка', 'class' => 'new'])?>
                                 <?php endif;?>
